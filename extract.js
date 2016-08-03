@@ -19,8 +19,8 @@
               $key = $this.find('#' + key);
 
           // Allow for extra function to be passed
-          if (extra && $.isFunction(extra))
-              extra(key, value);
+          if (extra && $.isFunction(extra) && extra(key, value))
+              ;
 
           // All checks
           else if ($key.is(':checkbox'))
