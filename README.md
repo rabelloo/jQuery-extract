@@ -1,5 +1,9 @@
 # jQuery-extract
-Extract objects to forms
+Extract objects to forms.<br>
+One simple **extract** call on a `$('form')` and your JavaScript object is completely extracted to its fields.<br>
+Ajax and SPA with jQuery are now a breeze.<br>
+
+Note: form fields must have the `[name]` or `#id` attributes according to the object properties.
 
 ## Usage
 
